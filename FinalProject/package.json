@@ -1,0 +1,31 @@
+{
+  "name": "CS290FinalProject",
+  "version": "1.0.0",
+  "description": "Dynamic content with Express and Handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "handlebars views/partials/post.handlebars -f public/postTemplate.js",
+    "prestart": "npm run build",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@https://github.com/Xavierh93/CS290Final.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Xavierh93/CS290Final"
+  },
+  "homepage": "https://github.com/Xavierh93/CS290Final",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

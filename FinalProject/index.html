@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset = 'UTF-8'/>
+  <title>CS 290 Final Project</title>
+
+  <link href = "public/styles.css" type = "text/css" rel = "stylesheet"/>
+</head>
+
+<body>
+  <div class = "wrapper">
+    <header>
+      <div class = "head">
+        <h1>Riddim Me This</h1>
+        <nav>
+          <ul class = 'navigation'>
+            <li><a href='./index.html' class ='current'><h3>Home</h3></a></li>
+            <li><a href='./about.html'><h3>About</h3></a></li>
+            <li><a href='./archive.html'><h3>Archive</h3></a></li>
+            <li><a href='./mostRecent.html'><h3>Most Recent Article</h3></a></li>
+            <li><a href='./downloads.html'><h3>Downloads</h3></a></li>
+            <li ><img id = 'monxx' src='https://ih1.redbubble.net/image.122888165.3519/flat,1000x1000,075,f.jpg'> </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="http://mixmag.net/assets/uploads/images/_fullX2/rezzlead.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="https://pbs.twimg.com/media/DU0CYPnVAAAv4L7.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="https://i1.sndcdn.com/artworks-000349445187-kfubzm-t500x500.jpg" style="width:100%">
+      </div>
+
+      <script src='./public/index.js' charset='utf-8'></script>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+
+    <div class = 'posts'>
+      <div class = 'main'>
+
+        <div id = 'post1'>
+          <article>
+            <a href='./post1.html'>
+              <img src="https://pbs.twimg.com/profile_images/921815572752584705/KEcGk3xW.jpg">
+              <hgroup>
+                <h2 class = 'postlink'>Is This Riddim?</h2>
+              </hgroup>
+            </a>
+            <p class='description'>This is definitely Riddim</p>
+          </article>
+        </div>
+
+        <div id = 'post2'>
+          <article>
+            <figure>
+              <a href='./post2.html'>
+                <img src="http://thewoodenwagon.com/Merchant2/graphics/00000001/CSH42330-1.jpg"/>
+              </figure>
+              <hgroup>
+                <h2 class = 'postlink'>100 Block Days</h2>
+              </hgroup>
+            </a>
+            <p class='description'>Everyone gets 100 10-minute blocks a day. How are you using yours?</p>
+          </article>
+        </div>
+
+        <div id = 'post3'>
+          <article>
+            <figure>
+              <a href='./post3.html'>
+                <img src="http://www.lbcrossfit.com/wp-content/uploads/2017/01/e3f85744-3043-4162-89e0-f779be3fa9a3.png">
+              </figure>
+              <hgroup>
+                <h2 class = 'postlink'>Who Are You?</h2>
+              </hgroup>
+            </a>
+            <p class='description'>Everybody sees you different than how you see yourself. So who are you truly?</p>
+          </article>
+        </div>
+
+        <div id = 'post4'>
+          <article>
+            <figure>
+              <a href='./post4.html'>
+                <img src="http://careerconnections.nj.gov/careerconnections/images/hero/RightCareer-480922793.jpg"/>
+              </figure>
+              <hgroup>
+                <h2 class = 'postlink'>What is the Right Career?</h2>
+              </hgroup>
+            </a>
+            <p class='description'>Growing up and deciding upon a career is a scary feat for all of us. How do you know if you made the right decision?</p>
+          </article>
+        </div>
+
+      </section>
+    </div>
+
+    <aside>
+      <section class='popular-posts'>
+        <h2>Most Popular Posts</h2>
+        <a href='./mostRecent.html'><h3 class = 'pp'>What is Riddim?</h3></a>
+        <a  href='./mostRecent.html'><h3 class = 'pp'>100 Block Days</h3></a>
+        <a href='./mostRecent.html'><h3 class = 'pp'>Who Are You</h3></a>
+        <a  href='./mostRecent.html'><h3 class = 'pp'>What is the Right Career?</h3></a>
+        <a href='./mostRecent.html'><h3 class = 'pp'>Monxx</h3></a>
+        <a href='./mostRecent.html'><h3 class = 'pp'>Subtronics</h3></a>
+        <a href='./mostRecent.html'><h3 class = 'pp'>Svdden Death</h3></a>
+        <a href='./mostRecent.html'><h3 class = 'pp'>Boogie T</h3></a>
+        <a href='./mostRecent.html'><h3 class = 'pp'>AFK</h3></a>
+
+      </section>
+
+      <div class='external-links'>
+        <h2>Follow Us On</h2>
+        <a href='https://www.facebook.com/'><img src='http://www.uniba.it/dati-homepage/icon-1/icona%20facebook.png/image_preview' class ='socialmedia'>
+        </a>
+        <a href='https://twitter.com/'><img src='https://cavchronicle.org/wp-content/uploads/2017/11/Twitter.png' class='socialmedia'>
+        </a>
+      </div>
+</aside>
+
+    </div>
+
+    <div id='footer'>
+      <footer>
+      <section class = 'contact-details'>
+        <h2>Contact</h2>
+        <p>Xavier Hollingsworth<br />
+          CS290 Spring 2018<br />
+          hollingx@oregonstate.edu<br />
+          OSU ID: 933317635<br />
+        </p>
+      </footer>
+    </div>
+
+
+  </body>
+
+
+
+  </html>
